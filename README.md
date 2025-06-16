@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 💸 Expense Tracker App
 
-## Getting Started
+A modern, full-stack Expense Tracker application built using **Next.js 14**, powered by a secure and scalable backend. It enables users to manage their daily finances with ease—track expenses, scan receipts using AI, view rich analytics, and receive intelligent budget alerts.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 🔐 **Authentication** – Seamless login/signup via **Clerk**.
+- 🧾 **AI Receipt Scanning** – Scan physical receipts with **Gemini AI API**.
+- 📊 **Analytics Dashboard** – Visual insights using **Recharts**.
+- 💡 **Budget Alerts** – Get automatic email alerts when you’re nearing your budget.
+- 📩 **Email Notifications** – Sent via **Resend** & **React Email**.
+- 📂 **Category Management** – Organize expenses efficiently.
+- 📆 **Recurring Transactions** – Automatically handle repeat expenses or incomes.
+- 📱 **Responsive UI** – Mobile-first and desktop-friendly layout using **Tailwind CSS** and **shadcn/ui**.
+- 🛡️ **Security** – Enhanced protection using **Arcjet**.
+- ✅ **Form Validation** – Done elegantly with **Zod**.
+- 🔧 **Robust Backend** – Built with **Next.js API Routes**, **Prisma ORM**, and **Supabase**.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠 Tech Stack
 
-## Learn More
+### 🖥️ Frontend
+- **Next.js 14** – React-based full-stack framework
+- **Tailwind CSS** – Utility-first CSS for rapid UI development
+- **shadcn/ui** – Prebuilt, accessible UI components
+- **Recharts** – Chart library for dynamic visualizations
+- **Clerk** – Complete user authentication and management
+- **Zod** – Type-safe schema validations
+- **Gemini API** – AI-powered receipt scanning
 
-To learn more about Next.js, take a look at the following resources:
+### 🧪 Backend
+- **Next.js API Routes** – Server logic within the app
+- **Prisma** – Type-safe ORM for database handling
+- **PostgreSQL** – Reliable relational database
+- **Supabase** – Backend-as-a-service for real-time data
+- **Arcjet** – Web application protection and security
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 📬 Email
+- **Resend** – Reliable email delivery
+- **React Email** – Build beautiful, responsive email templates
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📁 Project Structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
