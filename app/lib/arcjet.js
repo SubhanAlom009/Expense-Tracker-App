@@ -9,7 +9,7 @@ const aj = arcjet({
             mode:"LIVE",
             refillRate: 10, // 10 requests per second
             interval: 3600, // refill every hour
-            capacity: 10, // maximum burst of 10 requests
+            capacity: 10, // maximum burst of 20 requests
         })
     ]
 })

@@ -77,7 +77,7 @@ function DashboardOverview({ accounts, transactions }) {
     <div className="grid md:grid-cols-2 gap-4 mb-4">
       <Card>
         <CardHeader className="flex justify-between flex-row items-center space-y-0">
-          <CardTitle className={"text-base font-normal"}>
+          <CardTitle className={"text-base font-medium"}>
             Recent Transactions
           </CardTitle>
           <Select
@@ -137,11 +137,9 @@ function DashboardOverview({ accounts, transactions }) {
 
       <Card>
         <CardHeader>
-          <CardTitle className={"text-base font-normal"}>
+          <CardTitle className={"text-base font-medium"}>
             Monthly Expense Overview
           </CardTitle>
-          <CardDescription>Card Description</CardDescription>
-          <CardAction>Card Action</CardAction>
         </CardHeader>
         <CardContent className="p-0 pb-5">
           {pieChartData.length === 0 ? (
@@ -168,7 +166,7 @@ function DashboardOverview({ accounts, transactions }) {
                       />
                     ))}
                   </Pie>
-                <Legend />
+                  <Legend />
                 </PieChart>
               </ResponsiveContainer>
             </div>
