@@ -30,19 +30,19 @@ export async function createTransaction(data) {
 
     //Arcjet to add rate limiting
 
-    const req = await request();
+    // const req = await request();
 
-    const decision = await aj.protect(req, {
-      userId,
-      requested: 1,
-    });
+    // const decision = await aj.protect(req, {
+    //   userId,
+    //   requested: 1,
+    // });
 
-    if (decision.isDenied) {
-      if (decision.reason.isRateLimit()) {
-        throw new Error("Rate limit exceeded. Please try again later.");
-      }
-      throw new Error("Request denied by Arcjet");
-    }
+    // if (decision.isDenied) {
+    //   if (decision.reason.isRateLimit()) {
+    //     throw new Error("Rate limit exceeded. Please try again later.");
+    //   }
+    //   throw new Error("Request denied by Arcjet");
+    // }
 
     const user = await db.user.findUnique({
       where: {
