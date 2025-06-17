@@ -3,7 +3,6 @@
 import { db } from "@/lib/prisma";
 import { auth } from "@clerk/nextjs/server";
 import { revalidatePath } from "next/cache";
-import { RecurringInterval } from "./../lib/generated/prisma/index.d";
 import { request } from "@arcjet/next";
 import aj from "@/app/lib/arcjet";
 import { GoogleGenerativeAI } from "@google/generative-ai";
