@@ -47,7 +47,7 @@ function Hero() {
               Get Start
             </Button>
           </Link>
-          <Link href="https://www.youtube.com/watch?v=egS6fnZAdzk&t=3030s" target="_blank" rel="noopener noreferrer">
+          <Link href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
             <Button size="lg" variant={"outline"} className={"cursor-pointer"}>
               Watch Demo
             </Button>
